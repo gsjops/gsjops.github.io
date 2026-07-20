@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="郭晟杰 - 运维工程师个人网站，专注 Linux、Docker、Nginx 与网站部署" />
+    <title>首页 | 郭晟杰</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 顶部导航 -->
+    <header class="header">
+      <div class="container nav">
+        <a href="index.html" class="logo">&lt;Ops /&gt;</a>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link active">首页</a></li>
+          <li><a href="about.html" class="nav-link">关于我</a></li>
+          <li><a href="projects.html" class="nav-link">项目</a></li>
+          <li><a href="blog.html" class="nav-link">学习笔记</a></li>
+          <li><a href="contact.html" class="nav-link">联系方式</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle" aria-label="切换深色模式">
+            <span class="icon-sun">☀️</span>
+            <span class="icon-moon">🌙</span>
+          </button>
+          <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+            ☰
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero 首屏 -->
+      <section class="hero" id="hero">
+        <div class="hero-bg">
+          <img src="images/hero-bg.svg" alt="" aria-hidden="true" />
+          <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container hero-content fade-in visible">
+          <span class="hero-badge">运维工程师 · 2026 届计算机科学与技术专业</span>
+          <h1 class="hero-title">
+            你好，我是<br />
+            <span>郭晟杰</span>
+          </h1>
+          <p class="hero-desc">
+            专注 Linux、Docker、Nginx 和网站部署，持续学习云计算与自动化运维。
+            目前从事公安项目的部署和运维工作。
+          </p>
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-primary">查看项目 →</a>
+            <a href="contact.html" class="btn btn-outline">联系我</a>
+          </div>
+        </div>
+
+        <a href="#highlights" class="hero-scroll" aria-label="向下滚动">
+          <span>向下滚动</span>
+          <span>↓</span>
+        </a>
+      </section>
+
+      <!-- 核心亮点 -->
+      <section class="section" id="highlights">
+        <div class="container">
+          <div class="section-header fade-in">
+            <span class="section-label">Core Skills</span>
+            <h2 class="section-title">技术方向</h2>
+            <p class="section-desc">
+              聚焦服务器运维与网站部署，持续向云计算 / DevOps 方向成长
+            </p>
+          </div>
+
+          <div class="card-grid">
+            <article class="card fade-in">
+              <div class="card-icon">🐧</div>
+              <h3 class="card-title">Linux 运维</h3>
+              <p class="card-text">
+                熟悉 Linux 系统管理与日常运维，能够独立完成服务器环境搭建、故障排查与性能优化。
+              </p>
+              <div class="skill-tags">
+                <span class="skill-tag">Ubuntu/CentOS</span>
+                <span class="skill-tag">Shell 脚本</span>
+                <span class="skill-tag">系统调优</span>
+                <span class="skill-tag">用户权限</span>
+              </div>
+            </article>
+
+            <article class="card fade-in">
+              <div class="card-icon">🐳</div>
+              <h3 class="card-title">Docker 容器化</h3>
+              <p class="card-text">
+                使用 Docker 进行应用容器化部署，提升环境一致性与交付效率，简化项目上线流程。
+              </p>
+              <div class="skill-tags">
+                <span class="skill-tag">Dockerfile</span>
+                <span class="skill-tag">Docker Compose</span>
+                <span class="skill-tag">镜像构建</span>
+                <span class="skill-tag">容器编排</span>
+              </div>
+            </article>
+
+            <article class="card fade-in">
+              <div class="card-icon">🌐</div>
+              <h3 class="card-title">Nginx 与网站部署</h3>
+              <p class="card-text">
+                掌握 Nginx 反向代理与静态资源部署，负责公安等项目的环境配置与稳定运行保障。
+              </p>
+              <div class="skill-tags">
+                <span class="skill-tag">反向代理</span>
+                <span class="skill-tag">负载均衡</span>
+                <span class="skill-tag">SSL 配置</span>
+                <span class="skill-tag">静态资源</span>
+              </div>
+            </article>
+
+            <article class="card fade-in">
+              <div class="card-icon">☁️</div>
+              <h3 class="card-title">云计算基础</h3>
+              <p class="card-text">
+                了解主流云平台基础服务，能够完成云服务器创建、网络配置与基础运维管理。
+              </p>
+              <div class="skill-tags">
+                <span class="skill-tag">阿里云</span>
+                <span class="skill-tag">AWS 基础</span>
+                <span class="skill-tag">VPC 网络</span>
+                <span class="skill-tag">ECS 管理</span>
+              </div>
+            </article>
+
+            <article class="card fade-in">
+              <div class="card-icon">🔧</div>
+              <h3 class="card-title">CI/CD 与版本控制</h3>
+              <p class="card-text">
+                使用 Git 进行代码管理，了解自动化构建与持续部署流程，提升项目交付效率。
+              </p>
+              <div class="skill-tags">
+                <span class="skill-tag">Git/GitHub</span>
+                <span class="skill-tag">Jenkins</span>
+                <span class="skill-tag">自动化部署</span>
+                <span class="skill-tag">GitLab CI</span>
+              </div>
+            </article>
+
+            <article class="card fade-in">
+              <div class="card-icon">📊</div>
+              <h3 class="card-title">监控与日志</h3>
+              <p class="card-text">
+                了解常用监控与日志工具，能够搭建基础监控体系，及时发现并定位系统异常。
+              </p>
+              <div class="skill-tags">
+                <span class="skill-tag">Prometheus</span>
+                <span class="skill-tag">Grafana</span>
+                <span class="skill-tag">ELK Stack</span>
+                <span class="skill-tag">告警规则</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="skills-overview fade-in">
+            <h3 class="skills-overview-title">📈 技能概览</h3>
+            <div class="skills-grid">
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span class="skill-bar-name">🐧 Linux 运维</span>
+                  <span class="skill-bar-percent">85%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill animated" style="--fill: 85%"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span class="skill-bar-name">🐳 Docker 容器化</span>
+                  <span class="skill-bar-percent">80%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill animated" style="--fill: 80%"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span class="skill-bar-name">🌐 Nginx / 网站部署</span>
+                  <span class="skill-bar-percent">75%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill animated" style="--fill: 75%"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span class="skill-bar-name">☁️ 云计算</span>
+                  <span class="skill-bar-percent">65%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill animated" style="--fill: 65%"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span class="skill-bar-name">🔧 CI/CD & Git</span>
+                  <span class="skill-bar-percent">70%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill animated" style="--fill: 70%"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="skill-bar-header">
+                  <span class="skill-bar-name">🐍 Python / Shell</span>
+                  <span class="skill-bar-percent">70%</span>
+                </div>
+                <div class="skill-bar-track">
+                  <div class="skill-bar-fill animated" style="--fill: 70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 行动号召 -->
+      <section class="section">
+        <div class="container">
+          <div class="cta fade-in">
+            <h2 class="cta-title">持续学习，向 DevOps 工程师成长</h2>
+            <p class="cta-desc">欢迎了解我的项目实践，或通过联系方式与我交流运维与云计算相关话题</p>
+            <a href="contact.html" class="btn btn-primary">立即联系 →</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="footer-copy">© 2026 郭晟杰. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="about.html">关于我</a>
+          <a href="projects.html">项目</a>
+          <a href="blog.html">学习笔记</a>
+          <a href="contact.html">联系方式</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 返回顶部 -->
+    <button class="back-to-top" id="backToTop" aria-label="返回顶部">↑</button>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
